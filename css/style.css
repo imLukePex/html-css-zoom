@@ -72,7 +72,15 @@ li i {
 }
 
 .img-container {
+    background-size: cover;
     position: relative;
     width: 100%;
-    height: 100px;
+}
+
+.inactive {
+    color: white;
+}
+
+.inactive i {
+    background-color: rgba(106, 106, 106, 0.719);
 }
