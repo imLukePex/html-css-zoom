@@ -30,7 +30,7 @@ ul li {
 #top-bar a {
     text-decoration: none;
     color: white;
-    background-color: rgba(98, 98, 98, 0.747);
+    background-color: #4a4a4a;
     padding: 5px;
     border-radius: 5px;
     font-size: 15px;
@@ -46,7 +46,8 @@ li:first-child {
 
 /* Main Styles */
 main {
- height: calc(100vh - 130px);
+    height: calc(100vh - 130px);
+    overflow-y: auto;
 }
 
 #main-content {
@@ -59,7 +60,6 @@ main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    overflow-y: auto;
 }
 
 #main-content .box-picture {
